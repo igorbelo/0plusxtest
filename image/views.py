@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 from rest_framework import viewsets
-from image.models import File
-from image.serializers import FileSerializer
+from .models import File
+from .serializers import FileSerializer
 
 class FileViewSet(viewsets.ModelViewSet):
     serializer_class = FileSerializer
