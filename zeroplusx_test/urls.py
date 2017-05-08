@@ -20,7 +20,7 @@ from rest_framework import routers
 from image.views import FileViewSet
 from rest_framework_swagger.views import get_swagger_view
 
-router = routers.DefaultRouter()
+router = routers.DefaultRouter(trailing_slash=False)
 router.register(r'files', FileViewSet)
 schema_view = get_swagger_view(title='0+X Test API Docs')
 

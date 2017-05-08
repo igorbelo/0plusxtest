@@ -29,7 +29,7 @@ Refer to [Wiki](https://github.com/igorbelo/0plusxtest/wiki) of this project to 
 
 ## Report
 ### Time
-I took about 3 hours to finish the task considering all enhancements (except #5 and this documentation).
+I took about 3 hours to finish the task considering all enhancements (except #5).
 
 ### Enhancements for going production
 - better authentication and permission system
@@ -39,3 +39,4 @@ I took about 3 hours to finish the task considering all enhancements (except #5 
 - for querying images would use a full-text search solution (elasticsearch or solr) depending on the complexity and scability needed...
 - `django-filters` library is a good way to provide a generic mechanism to filter resources as well (multiple fields, type cast etc.)
 - put database credentials and secrets in environment variables
+- would remove the HTML interface for performing requests to the API
